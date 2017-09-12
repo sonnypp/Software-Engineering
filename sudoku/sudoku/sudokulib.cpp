@@ -41,14 +41,13 @@ void sudokulib::get_num(char* str) {
 
 //打印数独棋盘
 void sudokulib::print() {
-	iosout << "第" << cnt + 1 << "种解法为: " << endl;
 	for (int i = 0; i < 9; i++) {
 		for (int j = 0; j < 9; j++) {
 			iosout << sudoku_tmp[i][j] + 1 << " ";
 		}
 		iosout << endl;
 	}
-	iosout << endl << endl;
+	iosout << endl ;
 	return;
 }
 
