@@ -102,8 +102,13 @@ void data_input() {
 		}
 		addmit.append(root1);
 	}
-
-	root["addmitted"] = Value(addmit);
+	if (addmit.size() == 0) {
+		root["addmitted"].resize(0);
+	}
+	else {
+        root["addmitted"] = Value(addmit);
+	}
+	
 
 	//unlucky_department
 	for (int i = 0; i < unluck_dep_num; i++) {
