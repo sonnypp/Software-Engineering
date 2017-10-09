@@ -1,11 +1,4 @@
-﻿  function.cpp
-d:\git\software-engineering\test\test\test\function.cpp(36): warning C4018: “<”: 有符号/无符号不匹配
-d:\git\software-engineering\test\test\test\function.cpp(42): warning C4018: “<”: 有符号/无符号不匹配
-d:\git\software-engineering\test\test\test\function.cpp(47): warning C4018: “<”: 有符号/无符号不匹配
-d:\git\software-engineering\test\test\test\function.cpp(52): warning C4018: “<”: 有符号/无符号不匹配
-d:\git\software-engineering\test\test\test\function.cpp(59): warning C4018: “<”: 有符号/无符号不匹配
-d:\git\software-engineering\test\test\test\function.cpp(67): warning C4018: “<”: 有符号/无符号不匹配
-d:\git\software-engineering\test\test\test\function.cpp(72): warning C4018: “<”: 有符号/无符号不匹配
+﻿  DataProduce.cpp
 json_vc71_libmtd.lib(json_reader.obj) : warning LNK4099: 未找到 PDB“lib_json.pdb”(使用“json_vc71_libmtd.lib(json_reader.obj)”或在“D:\git\Software-Engineering\test\test\Debug\lib_json.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 json_vc71_libmtd.lib(json_value.obj) : warning LNK4099: 未找到 PDB“lib_json.pdb”(使用“json_vc71_libmtd.lib(json_value.obj)”或在“D:\git\Software-Engineering\test\test\Debug\lib_json.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 json_vc71_libmtd.lib(json_writer.obj) : warning LNK4099: 未找到 PDB“lib_json.pdb”(使用“json_vc71_libmtd.lib(json_writer.obj)”或在“D:\git\Software-Engineering\test\test\Debug\lib_json.pdb”中寻找)；正在链接对象，如同没有调试信息一样

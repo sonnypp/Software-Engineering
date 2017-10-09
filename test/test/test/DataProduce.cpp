@@ -83,6 +83,9 @@ void DataProduce::Rand(int num_rand)
 
 void DataProduce::ToGenerate()
 {
+	if (out.is_open() == false) {
+		out.open("./input_data.txt", ios::_Noreplace);
+	}
 	/*获取随机数种子，下面要用*/
 	srand((unsigned)time(NULL));
 
