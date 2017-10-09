@@ -9,7 +9,7 @@ int dep_num = 0;
 
 int unluck_stu_num = 0;     //没选重部门的学生
 int unluck_dep_num = 0;    //部门没选中人的数目
-int addmitted_num = 20;   //部门数目
+int addmitted_num = 0;   //部门数目
 unlucky_stu unlucky_student[305];
 addmit addmitted[25];
 unlucky_dep unlucky_depa[25];
@@ -54,6 +54,7 @@ void data_output() {
 			}
 		}
 		dep_num = root["departments"].size();
+		addmitted_num = dep_num;
 		//读取根节点 departments
 		for (int i = 0; i < root["departments"].size(); i++) {
 			//department_no

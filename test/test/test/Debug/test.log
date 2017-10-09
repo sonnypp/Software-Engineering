@@ -1,13 +1,2 @@
-﻿  match_program.cpp
-  function.cpp
-d:\vs\test\test\test\function.cpp(36): warning C4018: “<”: 有符号/无符号不匹配
-d:\vs\test\test\test\function.cpp(42): warning C4018: “<”: 有符号/无符号不匹配
-d:\vs\test\test\test\function.cpp(47): warning C4018: “<”: 有符号/无符号不匹配
-d:\vs\test\test\test\function.cpp(52): warning C4018: “<”: 有符号/无符号不匹配
-d:\vs\test\test\test\function.cpp(58): warning C4018: “<”: 有符号/无符号不匹配
-d:\vs\test\test\test\function.cpp(66): warning C4018: “<”: 有符号/无符号不匹配
-d:\vs\test\test\test\function.cpp(71): warning C4018: “<”: 有符号/无符号不匹配
-  DataProduce.cpp
-  正在生成代码...
-  test.vcxproj -> D:\vs\test\test\Debug\test.exe
-  test.vcxproj -> D:\vs\test\test\Debug\test.pdb (Partial PDB)
+﻿  test.vcxproj -> D:\git\Software-Engineering\test\test\Debug\test.exe
+  test.vcxproj -> D:\git\Software-Engineering\test\test\Debug\test.pdb (Partial PDB)
